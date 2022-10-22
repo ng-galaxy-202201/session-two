@@ -1,0 +1,11 @@
+
+<table>
+  <tr>
+    <td>Nombre</td>
+    <td>Editar</td>
+  </tr>
+  <tr *ngFor="let user of users">
+    <td>{{ user.name }}</td>
+    <td><button [routerLink]="['./', user.id]" >Editar</button></td>
+  </tr>
+</table>

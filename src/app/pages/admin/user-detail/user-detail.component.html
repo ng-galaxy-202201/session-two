@@ -1,0 +1,10 @@
+<div>
+  <h1>Detalle estudiante {{ studentId }}</h1>
+  <p>Codigo de alumno: </p>
+  <p>Nombre: </p>
+</div>
+
+<div>
+  <button routerLink="../" >Regresar a la lista</button>
+  <button [routerLink]="['../', studentId + 1]" >Siguiente Pedro</button>
+</div>

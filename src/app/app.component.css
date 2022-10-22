@@ -1,0 +1,9 @@
+.active {
+  color: green;
+}
+
+mat-spinner {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
